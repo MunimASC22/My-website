@@ -1,45 +1,46 @@
-/*body {
+body {
     background-color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
-    
-}*/
+}
 
-
-/*.topBar {
+.topBar {
     display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: 50px;
+    font-family:  'Courier New', Courier, monospace;
+    font-size: 300%;
+    color: rgb(46, 178, 223);
     flex-direction: row;
-    justify-content: space-around;
-    background-color: lightblue;
+    
+    justify-content: space-evenly;
+    background: rgb(9, 12, 24);
     text-decoration: underline;
     
-    
-}*/
-
-.topBarN {
-    display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: 200%;
-    flex-direction: row;
-    justify-content: start;
-    background-color: lightblue;
-    text-decoration: underline;
     
 }
 
-/*.topTitle {
-    display: flex;
-    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: 400%;
-    flex-direction: row;
-    justify-content: center;
-    background-color: lightblue;
-    text-decoration: underline;
-}*/
-
 .sideBar {
-    display: flex;
-    justify-content: ;
+   font-size: 200%;
+   position:fixed;
+   width: 270px;
+   height: 100%;
+   background: rgb(238, 58, 58);
+   padding: 30px 0;
+   
+}
+
+.sideBar ul li {
+    padding: 25px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-top: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+}
+
+.sideBar ul li:hover {
+    color: yellowgreen;
+}
+
+
+
+
+img {
+    width: 50%;
+    height: 100%;
 }
