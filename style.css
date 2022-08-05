@@ -1,18 +1,18 @@
 body {
-    background-color: white;
+    background-color: rgb(9, 12, 24);
 }
 
 .topBar {
     display: flex;
     font-family:  'Courier New', Courier, monospace;
-    font-size: 300%;
+    font-size: 350%;
     color: rgb(46, 178, 223);
     flex-direction: row;
-    
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-around;
     background: rgb(9, 12, 24);
-    text-decoration: underline;
-    
+    text-decoration: overline;
+    font-weight: bold;
     
 }
 
@@ -21,15 +21,18 @@ body {
    position:fixed;
    width: 270px;
    height: 100%;
-   background: rgb(238, 58, 58);
+   background: rgb(9, 12, 24);
    padding: 30px 0;
+   border-style:double;
+   border-color: rgb(46, 178, 223);
    
 }
 
 .sideBar ul li {
     padding: 25px;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-    border-top: 1px solid rgba(0,0,0,0.1);
+    color: rgb(46, 178, 223);
+    border-bottom: 1px solid rgba(46, 178, 223, 0.4);
+    border-top: 1px solid rgba(46, 178, 223, 0.4);
     list-style: none;
 }
 
